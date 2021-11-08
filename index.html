@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="forma">
+        <h1>Форма регестрации</h1>
+        <form id="contact-form" action="">
+            <input type="hidden" name="contact_number">
+            <div class="info">
+                <div class="user_self">
+                    <i class="fas fa-user-ninja"></i>
+                </div>
+                <div class="user_text">
+                    <p>Чтобы продолжить - зарегестрируйтесь</p>
+                    <i class="fas fa-caret-square-right"></i>
+                </div>
+            </div>
+            <div class="box_info">
+                <fieldset>
+                    <legend>Личная информация</legend>
+                    <div class="text">
+                        <input placeholder="username" type="text" name="username" id="">
+                    </div>
+                    <div class="email">
+                        <input placeholder="useremail" type="email" name="useremail" id="">
+                    </div>
+                    <div class="password">
+                        <input placeholder="password" type="password" name="password" id="">
+                    </div>
+                    <div class="phone">
+                        <input placeholder="phone" type="tel" name="phone" id="">
+                    </div>
+                    <div class="button">
+                        <button type="submit">Отправить</button>
+                        <button type="reset">Очистить</button>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+
+
+
+
+<script src="./main.js"></script>
+</body>
+</html>
